@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include "addressbook.pb.h"
+#include "proto/addressbook.pb.h"
 
 using namespace std;
 

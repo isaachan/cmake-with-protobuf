@@ -1,2 +1,11 @@
 project(ProtoBufDemo)
+cmake_minimum_required(VERSION 3.22)
+
+set(CMAKE_CXX_STANDARD 11)
+ADD_SUBDIRECTORY(proto)
+
+INCLUDE_DIRECTORIES(${CMAKE_CURRENT_BINARY_DIR})
+ADD_EXECUTABLE(write write.cc)
+TARGET_LINK_LIBRARIES(write proto ${PROTOBUF_LIBRARY})
+
 
