@@ -5,3 +5,4 @@ CMakeFiles
 **/**.pb.**
 **/**.a
 **/**/.DS_Store
+.vscode
